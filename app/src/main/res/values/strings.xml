@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Dagger Practice MVP</string>
+    <string name="greeting_error">Unable to load greeting.</string>
+</resources>
