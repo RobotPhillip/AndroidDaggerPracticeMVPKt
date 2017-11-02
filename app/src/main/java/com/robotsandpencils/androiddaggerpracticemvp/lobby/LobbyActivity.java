@@ -1,20 +1,17 @@
 package com.robotsandpencils.androiddaggerpracticemvp.lobby;
 
+import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.robotsandpencils.androiddaggerpracticemvp.R;
+import com.robotsandpencils.androiddaggerpracticemvp.databinding.LobbyActivityBinding;
 
 import javax.inject.Inject;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 import dagger.android.AndroidInjection;
 import timber.log.Timber;
 
@@ -25,25 +22,21 @@ public class LobbyActivity extends AppCompatActivity implements LobbyGreetingCon
     @Inject
     LobbyPresenter presenter;
 
-    @BindView(R.id.greeting_textview)
-    TextView greetingTextView;
-
-    @BindView(R.id.loading_indicator)
-    ProgressBar loadingIndicator;
+    private LobbyActivityBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         AndroidInjection.inject(this);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.lobby_activity);
-
-        ButterKnife.bind(this);
+        binding = DataBindingUtil.setContentView(this, R.layout.lobby_activity);
+        binding.lobbyGreetingButton.setOnClickListener(view -> onLobbyGreetingButtonClicked());
+        binding.commonGreetingButton.setOnClickListener(view -> onCommonGreetingButtonClicked());
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
-        if (!TextUtils.isEmpty(greetingTextView.getText())) {
-            outState.putCharSequence(BUNDLE_DATA_KEY_GREETING, greetingTextView.getText());
+        if (!TextUtils.isEmpty(binding.greetingTextview.getText())) {
+            outState.putCharSequence(BUNDLE_DATA_KEY_GREETING, binding.greetingTextview.getText());
         }
 
         super.onSaveInstanceState(outState);
@@ -51,7 +44,7 @@ public class LobbyActivity extends AppCompatActivity implements LobbyGreetingCon
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        greetingTextView.setText(savedInstanceState.getCharSequence(BUNDLE_DATA_KEY_GREETING));
+        binding.greetingTextview.setText(savedInstanceState.getCharSequence(BUNDLE_DATA_KEY_GREETING));
     }
 
     @Override
@@ -61,26 +54,24 @@ public class LobbyActivity extends AppCompatActivity implements LobbyGreetingCon
     }
 
     @Override
-    @OnClick(R.id.common_greeting_button)
     public void onCommonGreetingButtonClicked() {
         presenter.loadCommonGreeting();
     }
 
     @Override
-    @OnClick(R.id.lobby_greeting_button)
     public void onLobbyGreetingButtonClicked() {
         presenter.loadLobbyGreeting();
     }
 
     @Override
     public void displayGreeting(String greeting) {
-        greetingTextView.setVisibility(View.VISIBLE);
-        greetingTextView.setText(greeting);
+        binding.greetingTextview.setVisibility(View.VISIBLE);
+        binding.greetingTextview.setText(greeting);
     }
 
     @Override
     public void hideGreeting() {
-        greetingTextView.setVisibility(View.GONE);
+        binding.greetingTextview.setVisibility(View.GONE);
     }
 
     @Override
@@ -91,6 +82,6 @@ public class LobbyActivity extends AppCompatActivity implements LobbyGreetingCon
 
     @Override
     public void setLoadingIndicator(boolean active) {
-        loadingIndicator.setVisibility(active ? View.VISIBLE : View.GONE);
+        binding.loadingIndicator.setVisibility(active ? View.VISIBLE : View.GONE);
     }
 }
