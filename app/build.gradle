@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 project.ext {
     supportLibraryVersion = "27.0.0"
@@ -46,12 +48,15 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
+    // Data Binding
+    kapt "com.android.databinding:compiler:3.0.0"
+
     // Dagger core
-    annotationProcessor "com.google.dagger:dagger-compiler:$project.daggerVersion"
+    kapt "com.google.dagger:dagger-compiler:$project.daggerVersion"
     implementation "com.google.dagger:dagger:$project.daggerVersion"
 
     // Dagger Android
-    annotationProcessor "com.google.dagger:dagger-android-processor:$project.daggerVersion"
+    kapt "com.google.dagger:dagger-android-processor:$project.daggerVersion"
     implementation "com.google.dagger:dagger-android-support:$project.daggerVersion"
     // if you are not using support library, then include this instead
     implementation "com.google.dagger:dagger-android:$project.daggerVersion"
@@ -66,4 +71,9 @@ dependencies {
     // Timber
     implementation "com.jakewharton.timber:timber:$project.timberVersion"
 
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }
