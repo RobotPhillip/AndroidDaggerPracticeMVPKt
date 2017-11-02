@@ -1,0 +1,4 @@
+#Wed Nov 01 16:55:27 MDT 2017
+base.0=/Users/pwray/robots/android-dagger-practicemvp/app/build/intermediates/transforms/dexMerger/debug/11
+renamed.0=classes.dex
+file.0=/Users/pwray/robots/android-dagger-practicemvp/app/build/intermediates/transforms/dexMerger/debug/11/classes.dex
