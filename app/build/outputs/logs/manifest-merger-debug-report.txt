@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+MERGED from [com.android.support:design:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/0b1328f8392fab8504e94653dcb4320d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-android-support:2.11] /Users/pwray/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.11.aar/8f584e12ca18dad6208346f6121ac0db/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/36278ddfee94cd77fe9bd4f8a0e85637/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-android:2.11] /Users/pwray/.gradle/caches/transforms-1/files-1.1/dagger-android-2.11.aar/62816be9f52a91344a95da797e883e5c/AndroidManifest.xml:16:1-19:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/pwray/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/9786e62f56996045a49c5f6ddb882b17/AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/pwray/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/22e6a8849c330d43eb71f87611f27be8/AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/e12e74344132c1316bf8b0877ee26ce9/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/409e92abbf1a7db30dc5aa986f3947a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/5f321950660ea4518dfa5dc735bbb4f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/7b862bf390bcd9820bac181cbaab0b0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/c8c2e329ff5f3fc2a97b460fe31ab7c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/130beb41f65211af09999070985ae181/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/63a753a3497d78256dfe63de84c9c4f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/fcb416ad2a58670596d7241925cee2fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/2c28fbfb647f33e307f75c7987472ce0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/17db91595a463f59be789e59c1963e2f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c9c77ccfc99996a20af71dab07a5a32d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/889cc66aaaffd97674efaa9a78f6a30e/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+	package
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:2:11-66
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:1-20:12
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:4:5-18:19
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/e12e74344132c1316bf8b0877ee26ce9/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/e12e74344132c1316bf8b0877ee26ce9/AndroidManifest.xml:8:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/889cc66aaaffd97674efaa9a78f6a30e/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/889cc66aaaffd97674efaa9a78f6a30e/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:6:9-43
+	android:theme
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:9:9-40
+	android:name
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:5:9-73
+activity#com.robotsandpencils.androiddaggerpracticemvp.lobby.LobbyActivity
+ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:11:9-16:20
+	android:name
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:11:19-99
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:13:17-68
+	android:name
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:14:17-76
+	android:name
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/0b1328f8392fab8504e94653dcb4320d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/design-27.0.0.aar/0b1328f8392fab8504e94653dcb4320d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.11] /Users/pwray/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.11.aar/8f584e12ca18dad6208346f6121ac0db/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android-support:2.11] /Users/pwray/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.11.aar/8f584e12ca18dad6208346f6121ac0db/AndroidManifest.xml:18:3-42
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/36278ddfee94cd77fe9bd4f8a0e85637/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.0.aar/36278ddfee94cd77fe9bd4f8a0e85637/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.11] /Users/pwray/.gradle/caches/transforms-1/files-1.1/dagger-android-2.11.aar/62816be9f52a91344a95da797e883e5c/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-android:2.11] /Users/pwray/.gradle/caches/transforms-1/files-1.1/dagger-android-2.11.aar/62816be9f52a91344a95da797e883e5c/AndroidManifest.xml:18:3-42
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/pwray/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/9786e62f56996045a49c5f6ddb882b17/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/pwray/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/9786e62f56996045a49c5f6ddb882b17/AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/pwray/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/22e6a8849c330d43eb71f87611f27be8/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/pwray/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/22e6a8849c330d43eb71f87611f27be8/AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/e12e74344132c1316bf8b0877ee26ce9/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.6.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/timber-4.6.0.aar/e12e74344132c1316bf8b0877ee26ce9/AndroidManifest.xml:6:5-43
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/409e92abbf1a7db30dc5aa986f3947a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.0.aar/409e92abbf1a7db30dc5aa986f3947a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/5f321950660ea4518dfa5dc735bbb4f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/transition-27.0.0.aar/5f321950660ea4518dfa5dc735bbb4f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/7b862bf390bcd9820bac181cbaab0b0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.0.aar/7b862bf390bcd9820bac181cbaab0b0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/c8c2e329ff5f3fc2a97b460fe31ab7c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.0.aar/c8c2e329ff5f3fc2a97b460fe31ab7c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/130beb41f65211af09999070985ae181/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.0.aar/130beb41f65211af09999070985ae181/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/63a753a3497d78256dfe63de84c9c4f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.0.aar/63a753a3497d78256dfe63de84c9c4f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/fcb416ad2a58670596d7241925cee2fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.0.aar/fcb416ad2a58670596d7241925cee2fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/2c28fbfb647f33e307f75c7987472ce0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.0.aar/2c28fbfb647f33e307f75c7987472ce0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/17db91595a463f59be789e59c1963e2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.0.aar/17db91595a463f59be789e59c1963e2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c9c77ccfc99996a20af71dab07a5a32d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.0.aar/c9c77ccfc99996a20af71dab07a5a32d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/889cc66aaaffd97674efaa9a78f6a30e/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/889cc66aaaffd97674efaa9a78f6a30e/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pwray/robots/android-dagger-practicemvp/app/src/main/AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/889cc66aaaffd97674efaa9a78f6a30e/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/889cc66aaaffd97674efaa9a78f6a30e/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/pwray/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/889cc66aaaffd97674efaa9a78f6a30e/AndroidManifest.xml:26:13-58
