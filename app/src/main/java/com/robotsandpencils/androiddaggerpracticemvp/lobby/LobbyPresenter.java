@@ -10,7 +10,7 @@ import io.reactivex.Single;
  * Created by pwray on 2017-11-01.
  */
 
-class LobbyPresenter extends BasePresenter<LobbyGreetingContract.LobbyView> implements LobbyGreetingContract.LobbyPresenter {
+public class LobbyPresenter extends BasePresenter<LobbyGreetingContract.LobbyView> implements LobbyGreetingContract.LobbyPresenter {
 
     private final LoadCommonGreetingUseCase loadCommonGreetingUseCase;
 
