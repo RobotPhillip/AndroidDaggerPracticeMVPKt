@@ -14,7 +14,7 @@ import io.reactivex.Single
 class LoadLobbyGreetingUseCase @Inject
 internal constructor(private val greetingRepository: LobbyGreetingRepository) {
 
-    protected fun execute(): Single<String> {
+    fun execute(): Single<String> {
         return greetingRepository.greeting
     }
 }

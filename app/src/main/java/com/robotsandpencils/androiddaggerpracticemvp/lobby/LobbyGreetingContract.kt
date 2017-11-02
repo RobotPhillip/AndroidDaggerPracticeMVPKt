@@ -4,7 +4,7 @@ package com.robotsandpencils.androiddaggerpracticemvp.lobby
  * Created by pwray on 2017-11-01.
  */
 
-internal interface LobbyGreetingContract {
+interface LobbyGreetingContract {
     interface LobbyView {
         // button events
         fun onCommonGreetingButtonClicked()
